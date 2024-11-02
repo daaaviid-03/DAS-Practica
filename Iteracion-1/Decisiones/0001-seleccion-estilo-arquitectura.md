@@ -1,10 +1,13 @@
 ---
-status: proposed
+status: accepted
 date: 2024-11-02
 deciders: David Pimentel, Marcos García, Daniel Santos, Diego Sánchez, Cristian Teijeiro y Juan Manuel Bustos
 ---
 
 # 0001 Selección del Estilo de la Arquitectura Software
+
+* Status: accepted
+* Date: 2024-11-02
 
 ## Context and Problem Statement
 
@@ -19,68 +22,51 @@ Se necesita una arquitectura de software para crear una aplicación de gestión 
 
 ## Considered Options
 
-* 0001-1-arquitectura-cliente-servidor
-* 0001-2-modelo-vista-controlador
-* 0001-3-event-driven
+* 0001-1 Arquitectura Cliente Servidor
+* 0001-2 Modelo Vista Controlador
+* 0001-3 Event Driven
 
 ## Decision Outcome
 
-**Chosen option**: 0001-1-arquitectura-cliente-servidor, ***because*** es el estilo arquitectónico que más se adapta al problema que se nos presenta debido a la estructura de las consultas del cliente al servidor.
-
-{lkashjdfñlkas} {Danii}
+**Chosen option**: 0001-1 Arquitectura Cliente Servidor, ***because*** es el estilo arquitectónico que más se adapta al problema que se nos presenta debido a la estructura de las consultas del cliente al servidor. Además, es fácil de implementar y mantener, y permite una clara separación de responsabilidades.
 
 ### Consequences
 
 * ***Good, because*** respalda la estructura de las colsultas de los clientes al servidor
-
-{jklshdjflñjkasdf} {David}
+* ***Good, because*** es fácil de implementar y mantener
+* ***Good, because*** permite una clara separación de responsabilidades
+* ***Bad, because*** puede tener problemas de escalabilidad en sistemas muy grandes
+* ***Bad, because*** no es el estilo arquitectónico más moderno
 
 ## Pros and Cons of the Options
 
-### 0001-1-arquitectura-cliente-servidor
+### 0001-1 Arquitectura Cliente Servidor
 
-{klsadjfhkjsahdf} {Marcos}
+* ***Good, because*** permite una comunicación directa entre el cliente y el servidor
+* ***Good, because*** es una arquitectura bien conocida y documentada
+* ***Good, because*** es fácil de implementar y mantener
+* ***Neutral, because*** puede requerir una gestión cuidadosa de la carga del servidor
+* ***Bad, because*** puede ser menos eficiente en términos de rendimiento en comparación con arquitecturas más modernas
 
-<!-- This is an optional element. Feel free to remove. -->
-{example | description | pointer to more information | …}
+### 0001-2 Modelo Vista Controlador
 
-* Good, because {argument a}
-* Good, because {argument b}
-<!-- use "neutral" if the given argument weights neither for good nor bad -->
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* … <!-- numbers of pros and cons can vary -->
+* ***Good, because*** separa claramente la lógica de negocio de la presentación
+* ***Good, because*** facilita el mantenimiento y la escalabilidad del código
+* ***Neutral, because*** puede requerir más esfuerzo inicial en la configuración
+* ***Bad, because*** puede ser más difícil de depurar debido a la separación de componentes
+* ***Bad, because*** puede ser excesivo para aplicaciones simples
 
-### 0001-2-modelo-vista-controlador
+### 0001-3 Event Driven
 
-{klsdfjhasñldf} {Diego}
+* ***Good, because*** es adecuado para aplicaciones que requieren procesamiento en tiempo real
+* ***Neutral, because*** puede ser más complejo de implementar y depurar
+* ***Bad, because*** puede introducir latencia en la comunicación entre componentes
+* ***Bad, because*** puede ser más difícil de mantener y escalar en comparación con otros estilos arquitectónicos
 
-{example | description | pointer to more information | …}
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
-
-### 0001-3-event-driven
-
-{sadkflaksjdhfñlas} {Juanma}
-
-{example | description | pointer to more information | …}
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
-
-<!-- This is an optional element. Feel free to remove. -->
 ## More Information
 
-{lñfdhASJDKFHñlsdf} {Cristian}
+Para más información, se pueden consultar los siguientes recursos:
 
-{You might want to provide additional evidence/confidence for the decision outcome here and/or
- document the team agreement on the decision and/or
- define when/how this decision the decision should be realized and if/when it should be re-visited.
-Links to other decisions and resources might appear here as well.}
+* [Arquitectura Cliente Servidor](https://es.wikipedia.org/wiki/Arquitectura_cliente-servidor)
+* [Modelo Vista Controlador](https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador)
+* [Arquitectura Event Driven](https://es.wikipedia.org/wiki/Arquitectura_dirigida_por_eventos)
