@@ -1,6 +1,6 @@
 ---
 status: accepted
-date: 2024-11-02
+date: 06-11-2024
 deciders: David Pimentel y Marcos García
 ---
 
