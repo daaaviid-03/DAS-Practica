@@ -1,12 +1,12 @@
 ---
-status: proposed
+status: accepted
 date: 10-11-2024
 deciders: Daniel Santos López y Diego Sánchez Rincón
 ---
 
 # 0006 Base de datos
 
-* Status: proposed
+* Status: accepted
 * Date: 10-11-2024
 
 ## Context and Problem Statement
