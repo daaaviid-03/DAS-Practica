@@ -4,7 +4,7 @@ date: 10-11-2024
 deciders: Daniel Santos López y Diego Sánchez Rincón
 ---
 
-# 0006 Base de datos
+# 0005 Base de datos
 
 * Status: accepted
 * Date: 10-11-2024
@@ -20,13 +20,13 @@ Los datos de los clientes se almacenarán en una base de datos separada a la de 
 
 ## Considered Options
 
-* 0006-1 Base de datos relacional (MySQL)
-* 0006-2 Base de datos relacional (PostgreSQL)
-* 0006-3 Base de datos no relacional (MongoDB)
+* 0005-1 Base de datos relacional (MySQL)
+* 0005-2 Base de datos relacional (PostgreSQL)
+* 0005-3 Base de datos no relacional (MongoDB)
 
 ## Decision Outcome
 
-**Chosen option**: 0006-2 Base de datos relacional (PostgreSQL), ***because*** almacena los datos de forma estructurada y permite la escalabilidad de la base de datos en caso de que el sistema crezca, ofreciendo un mejor rendimiento que MySQL en operaciones complejas.
+**Chosen option**: 0005-2 Base de datos relacional (PostgreSQL), ***because*** almacena los datos de forma estructurada y permite la escalabilidad de la base de datos en caso de que el sistema crezca, ofreciendo un mejor rendimiento que MySQL en operaciones complejas.
 
 ### Consequences
 
@@ -37,21 +37,21 @@ Los datos de los clientes se almacenarán en una base de datos separada a la de 
 
 ## Pros and Cons of the Options
 
-### 0006-1 Base de datos relacional (MySQL)
+### 0005-1 Base de datos relacional (MySQL)
 
 * ***Good, because*** es una base de datos relacional
 * ***Good, because*** es una base de datos ampliamente utilizada
 * ***Bad, because*** no ofrece un buen rendimiento en operaciones complejas
 * ***Bad, because*** no es tan escalable como PostgreSQL
 
-### 0006-2 Base de datos relacional (PostgreSQL)
+### 0005-2 Base de datos relacional (PostgreSQL)
 
 * ***Good, because*** almacena los datos de forma estructurada
 * ***Good, because*** permite la escalabilidad de la base de datos en caso de que el sistema crezca
 * ***Good, because*** ofrece un mejor rendimiento que MySQL en operaciones complejas
 * ***Bad, because*** requiere de un mayor esfuerzo en la configuración inicial
 
-### 0006-3 Base de datos no relacional (MongoDB)
+### 0005-3 Base de datos no relacional (MongoDB)
 
 * ***Good, because*** es una base de datos ampliamente utilizada
 * ***Good, because*** es fácil de implementar
