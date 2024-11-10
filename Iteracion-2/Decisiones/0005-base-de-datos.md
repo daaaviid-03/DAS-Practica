@@ -12,7 +12,7 @@ deciders: Daniel Santos López y Diego Sánchez Rincón
 ## Context and Problem Statement
 
 El sistema deberá almacenar los datos de los clientes y los pedidos en una base de datos para poder ser consultados en cualquier momento.
-Los datos de los clientes se almacenarán en una base de datos separada a la de los pedidos.
+Los datos de los clientes se relacionan con los pedidos para poder identificar a qué cliente pertenece cada pedido.
 
 ## Decision Drivers
 
