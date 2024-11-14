@@ -4,7 +4,7 @@ date: 14-11-2024
 deciders: Daniel Santos López y Diego Sánchez Rincón
 ---
 
-# 0008 Módulo de incidencias
+# 0007 Módulo de incidencias
 
 * Status: accepted
 * Date: 14-11-2024
