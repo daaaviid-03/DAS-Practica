@@ -15,7 +15,6 @@ El sistema deberá permitir reportar a los gestores de las rutas cualquier tipo 
 
 ## Decision Drivers
 
-* **RF-13**: Reportar incidencia
 * **RF-16**: Gestionar incidencias en el reparto
 
 ## Considered Options
