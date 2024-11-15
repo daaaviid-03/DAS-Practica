@@ -1,13 +1,13 @@
 ---
-status: proposed
-date: 14/11/2024
-deciders: Daniel Santos y Diego Sánchez
+status: accepted
+date: 15/11/2024
+deciders: Daniel Santos López y Diego Sánchez Rincón
 ---
 
-# 0008 - Módulo de pedidos
+# 0008 Módulo de pedidos
 
-* Status: proposed
-* Date: 14/11/2024
+* Status: accepted
+* Date: 15/11/2024
 
 ## Context and Problem Statement
 
@@ -50,4 +50,5 @@ El sistema debe permitir a los usuarios de tipo cliente realizar pedidos de los 
 
 ## More Information
 
-
+* [Microservicios](https://aws.amazon.com/es/microservices/#:~:text=Los%20microservicios%20son%20un%20enfoque,servicios%20son%20equipos%20peque%C3%B1os%20independientes.)
+* [Docker](https://www.docker.com/)
