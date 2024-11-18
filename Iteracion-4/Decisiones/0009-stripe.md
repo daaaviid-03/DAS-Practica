@@ -43,4 +43,6 @@ El sistema se conectará con la pasarela de pago de Stripe para procesar los pag
 
 ## More Information
 
+Para más información, se pueden consultar los siguientes recursos:
+
 * [Stripe](https://stripe.com/)
