@@ -1,12 +1,12 @@
 ---
-status: proposed
+status: accepted
 date: 18-11-2024
 deciders: Diego Sánchez Rincón y Daniel Santos López
 ---
 
 # 0009 Stripe
 
-* Status: proposed
+* Status: accepted
 * Date: 18-11-2024
 
 ## Context and Problem Statement

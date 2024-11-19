@@ -1,12 +1,12 @@
 ---
-status: proposed
+status: accepted
 date: 18-11-2024
 deciders: Daniel Santos López y Diego Sánchez Rincón
 ---
 
 # 0010 Protección del servidor
 
-* Status: proposed
+* Status: accepted
 * Date: 18-11-2024
 
 ## Context and Problem Statement
