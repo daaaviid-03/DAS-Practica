@@ -11,7 +11,7 @@ deciders: Marcos García y David Pimentel
 
 ## Context and Problem Statement
 
-El sistema de pedidos debe pasar siempre por una cadena de tres fases: preprocesado, autorización y aceptación, de manera que no es posible pasar a un estado sino se procesado correctamente el estado anterior. 
+El sistema de pedidos debe pasar siempre por una cadena de tres fases: preprocesado, autorización y aceptación, de manera que no es posible pasar a un estado si no es procesado correctamente el estado anterior. 
 
 ## Decision Drivers
 
